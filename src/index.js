@@ -15,6 +15,9 @@ app.use(courseRouter)
 app.use(questionRouter)
 app.use(quizRouter)
 
+app.get('/',(req,res)=>{
+    res.render("<h1>hello</h1>")
+})
 
 app.listen(port,()=>{
     console.log('Server is running @'+ port);
