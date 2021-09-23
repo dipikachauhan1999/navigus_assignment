@@ -26,6 +26,8 @@ app.get('/',  (req, res)=> {
     <body>
         <h1>Welcome to My Navigus Assignment</h1>
         <h3><a href="https://github.com/dipikachauhan1999/navigus_assignment">Click</a> here to visit the Github repository to know about the endpoints</h3>
+        <br>
+        <p><a href="https://deepik-chauhan-navigus.herokuapp.com/quiz/614c53f7e638635bd42c50c9">GET</a> Quiz</p>
     </body>
     </html>`);
  });
